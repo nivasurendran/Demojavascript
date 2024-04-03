@@ -10,7 +10,8 @@ namespace jsDemo.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+
+            return View("Test");
         }
 
         public ActionResult About()
